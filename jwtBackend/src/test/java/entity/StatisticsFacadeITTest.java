@@ -45,7 +45,7 @@ public class StatisticsFacadeITTest {
         System.out.println("addReviewsDatabaseAndApi");
         int a = 3;
         int b = 6;
-        int expResult = 9;
+        int expResult = 8;
         int result = StatisticsFacade.addReviewsDatabaseAndApi(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
