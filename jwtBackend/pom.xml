@@ -64,6 +64,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>maven</groupId>
+            <artifactId>maven-ant-plugin</artifactId>
+            <version>1.10</version>
+            <type>plugin</type>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
